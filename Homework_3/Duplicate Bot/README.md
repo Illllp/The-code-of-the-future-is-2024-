@@ -1,7 +1,7 @@
 ```python
 import telebot
 
-bot = telebot.TeleBot("7295010578:AAFUpzLQ0bnzFM3CabrJAICmEcEsQ4I8QiQ") #API
+bot = telebot.TeleBot("") #API
 
 @bot.message_handler(content_types=['text'])
 def repeat_message(message):
@@ -24,9 +24,7 @@ bot.polling()
 Вписал имя пользователя для бота `Duplicate Bot`
 
 Получил API:
-```txt
-7295010578:AAFUpzLQ0bnzFM3CabrJAICmEcEsQ4I8QiQ
-```
+
 И получил ссылку на бота https://t.me/Duplicate_10_Bot
 
 ![фото](фото/фото_2.png)
