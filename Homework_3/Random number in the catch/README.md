@@ -4,7 +4,7 @@ import telebot
 import random
 
 # вставляем токен 
-bot = telebot.TeleBot("7295010578:AAFUpzLQ0bnzFM3CabrJAICmEcEsQ4I8QiQ") # Вставить свой токен
+bot = telebot.TeleBot("") # Вставить свой токен
 
 # хэндлер для сообщений с "рандом"
 @bot.message_handler(func=lambda message: 'рандом' in message.text.lower())
@@ -25,10 +25,7 @@ def handle_other(message):
 # запускаем бота
 bot.polling()
 ```
-
-## README.md
-
-### Домашнее задание №2
+### Рандомное число в слове
 
 **Описание:**
 
