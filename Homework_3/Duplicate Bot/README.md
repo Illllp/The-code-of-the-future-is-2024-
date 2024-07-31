@@ -13,7 +13,7 @@ bot.polling()
 
 Зашел на  `@BotFather`
 
-![фото](https://yandex.ru/images/search?pos=0&img_url=https%3A%2F%2Fcore.telegram.org%2Ffile%2F811140327%2F1%2FzlN4goPTupk%2F9ff2f2f01c4bd1b013&text=%40BotFather&rpt=simage)
+![](фото/фото_3.png)
 
 Нажал на кнопку `start`
 
@@ -29,6 +29,8 @@ bot.polling()
 ```
 И получил ссылку на бота https://t.me/Duplicate_10_Bot
 
+![](фото/фото_2.png)
+
 После запуска кода бот заработал и продублировал 10 раз мой текст.
 
-![фото](фото/фото.png)
+![фото](фото/фото_1.png)
