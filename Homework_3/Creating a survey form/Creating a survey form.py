@@ -1,7 +1,7 @@
 import telebot
 
-# Вставьте свой токен
-bot = telebot.TeleBot("7295010578:AAFUpzLQ0bnzFM3CabrJAICmEcEsQ4I8QiQ")
+# Вставьте свой API
+bot = telebot.TeleBot("")
 
 @bot.message_handler(content_types=['text'])
 def handle_message(message):
