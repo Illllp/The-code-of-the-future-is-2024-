@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot("") #Токен
+bot = telebot.TeleBot("") #API
 
 @bot.message_handler(content_types=['text'])
 def repeat_message(message):
