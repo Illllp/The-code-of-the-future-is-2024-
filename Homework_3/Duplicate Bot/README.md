@@ -1,16 +1,4 @@
-```python
-import telebot
-
-bot = telebot.TeleBot("") #API
-
-@bot.message_handler(content_types=['text'])
-def repeat_message(message):
-    repeated_text = text  *  10
-    bot.send_message(message.chat.id, repeated_text)
-
-bot.polling()
-```
-
+# Создание бота
 Зашел на  `@BotFather`
 
 ![фото](фото/фото_3.png)
