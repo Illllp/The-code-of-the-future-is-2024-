@@ -4,7 +4,7 @@ import telebot
 import random
 
 # вставляем токен 
-bot = telebot.TeleBot("") # Вставить свой токен
+bot = telebot.TeleBot("") # Вставить свой API
 
 # хэндлер для сообщений с "рандом"
 @bot.message_handler(func=lambda message: 'рандом' in message.text.lower())
