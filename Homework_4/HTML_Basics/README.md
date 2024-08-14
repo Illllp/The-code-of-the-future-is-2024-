@@ -1,5 +1,3 @@
-Хорошо, вот файл README.md для твоего репозитория:
-
 # HTML Basics
 
 This repository contains a simple HTML file demonstrating basic HTML elements.
