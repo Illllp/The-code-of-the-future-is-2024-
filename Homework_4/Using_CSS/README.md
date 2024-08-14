@@ -22,11 +22,3 @@ This project serves as a basic introduction to HTML and CSS. The `Using_CSS.html
 ### Screenshot
 
 ![Sample Image](photo/branko-stancevic-GI1hwOGqGtE-unsplash.jpg)
-
-## Getting Started
-
-To view the project:
-
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
