@@ -3,27 +3,50 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>HTML Basics using css</title>
+	<title>HTML Basics using CSS</title>
 
 	<style>
-	h1 {
-	color: red;
-	font-size: 55;
-	}
+		h1 {
+			color: red;
+			font-size: 55px; /* Добавлено "px" для корректного отображения */
+		}
 
-	p {
-	color: green;
-	font-size: 55;
-	}
+		p {
+			color: green;
+			font-size: 20px; /* Уменьшен размер шрифта для лучшей читаемости */
+		}
 
-	img {
-	border-radius: 3%;
-	}
+		img {
+			width: 600px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.red { color: red; }
+        .orange { color: orange; }
+        .yellow { color: yellow; }
+        .green { color: green; }
+        .blue { color: blue; }
+        .indigo { color: indigo; }
+        .violet { color: violet; }
+
 	</style>
 </head>
 <body>
 	<h1>This is a level 1 header</h1>
-	<p>There is an image below that does not require a license, but I will still indicate the <a href="https://unsplash.com/photos/programming-codes-GI1hwOGqGtE">link</a>from where the photo was taken.</p>
-	<img src="photo/branko-stancevic-GI1hwOGqGtE-unsplash.jpg" width=600>
+	<p>There is an image below that does not require a license, but I will still indicate the <a href="https://unsplash.com/photos/programming-codes-GI1hwOGqGtE">link</a> from where the photo was taken.</p>
+	<img src="photo/branko-stancevic-GI1hwOGqGtE-unsplash.jpg" alt="Programming Codes">
+	<p>I would like to add a suitable list on the topic in order to fulfill the requirements of the task, but somehow <b>nothing</b> worthwhile comes to mind.</p>
+	<ul>
+		<li><span class="red">Every</span></li>
+		<li><span class="orange">hunter</span></li>
+		<li><span class="yellow">wants</span></li>
+		<li><span class="green">to</span></li>
+		<li><span class="blue">know</span></li>
+		<li><span class="indigo">where</span></li>
+		<li><span class="violet">pheasant</span></li>
+	</ul>
 </body>
 </html>
+
