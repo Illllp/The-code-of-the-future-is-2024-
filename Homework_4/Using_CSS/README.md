@@ -22,3 +22,7 @@ This project serves as a basic introduction to HTML and CSS. The `Using_CSS.html
 ### Screenshot
 
 ![Sample Image](photo/branko-stancevic-GI1hwOGqGtE-unsplash.jpg)
+
+# Screen demonstration
+
+![photo](photo/demonstration.png)
