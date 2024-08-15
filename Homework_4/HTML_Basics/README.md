@@ -17,4 +17,4 @@ The HTML file can be opened in any web browser. It displays a simple webpage wit
 
 # Screen demonstration
 
-![[/photo/Снимок экрана от 2024-08-15 19-47-47.png]]
+![фото](photo/demonstration.png)
