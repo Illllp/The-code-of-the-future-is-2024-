@@ -14,3 +14,7 @@ The HTML file can be opened in any web browser. It displays a simple webpage wit
 * A level 1 header with the text "This is a level 1 header".
 * A paragraph explaining the image and providing a link to the source.
 * An image from Unsplash.
+
+# Screen demonstration
+
+![[photo/Снимок экрана от 2024-08-15 19-47-47.png]]
