@@ -16,7 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from temlates_base.views import page1, page2, page3
 
 urlpatterns = [
+
     path('admin/', admin.site.urls),
+    path('page1/', page1, name='page_1'),
+    path('page2/', page2, name='page_2'),
+    path('page3/', page3, name='page_3'),
+
 ]
